@@ -28,7 +28,7 @@ class Example extends Component {
 
   render() {
     return(
-        <div>
+        <div className="schet">
           <p>Счетчик: {this.state.count}</p>
           <button onClick={() => this.handleClick()}>Увеличить</button>
         </div>
